@@ -1,23 +1,23 @@
 .body{
-    font-family: 'Raleway', 'Roboto';
+    font-family: 'Sans-Serif', 'Roboto';
 }
 .logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;    
+    line-height: 1.19;    
     letter-spacing: 0.03em;    
     color: #000000;
     text-transform: none;
     text-decoration-line: none;
 }
-.Web {
+.web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;    
     color: #2196F3;
 }
@@ -29,18 +29,19 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
     text-transform: none;
     text-decoration-line: none;
-    text-decoration: none;
 }
 .namber{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;    
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #757575;
     text-decoration-line: none;
 }
@@ -50,7 +51,7 @@
 .main_text{
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -62,11 +63,19 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 .section_one_text {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -77,14 +86,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.41;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .section_text{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -95,11 +104,9 @@
     border-radius: 0px 0px 4px 4px;
 }
 .section_three_text{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -107,7 +114,7 @@
 .section_three_p{
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;    
     color: #757575;
@@ -120,7 +127,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #ffffff;
     text-transform: none;
@@ -131,19 +138,54 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.footer_namber{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 /*----------------portfolio-----------------*/
 .portfolio_button{
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.625x;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;    
     color: #212121;
+}
+.portfolio_section_one_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;     
+    letter-spacing: 0.06em;    
+    color: #212121;
+}
+.portfolio_namber{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+    color: #757575;
+    text-decoration: none;
 }
