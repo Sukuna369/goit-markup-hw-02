@@ -154,18 +154,34 @@
 }
 
 /*----------------portfolio-----------------*/
+.portfolio_link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.portfolio_namber {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
 .portfolio_button{
-    width: 125px;
-    height: 38px;
-    left: 593px;
-    top: 174px;
     background: #F5F4FA;
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625x;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;    
     color: #212121;
@@ -178,14 +194,4 @@
     line-height: 2;     
     letter-spacing: 0.06em;    
     color: #212121;
-}
-.portfolio_namber{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;    
-    color: #757575;
-    text-decoration: none;
 }
